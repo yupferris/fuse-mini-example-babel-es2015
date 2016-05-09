@@ -2,7 +2,7 @@
   "name": "babel",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel js -d .js-compiled -w"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",

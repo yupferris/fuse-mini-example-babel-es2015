@@ -1,3 +1,15 @@
 <App Theme="Basic">
+	<DockPanel>
+		<StatusBarBackground Dock="Top" />
+		<BottomBarBackground Dock="Bottom" />
+
+		<JavaScript File="./.js-compiled/MainView.js" />
+
+		<StackPanel>
+			<Each Items="{items}">
+				<Text Value="{}" />
+			</Each>
+		</StackPanel>
+	</DockPanel>
 </App>
 
