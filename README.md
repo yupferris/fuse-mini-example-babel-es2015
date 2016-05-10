@@ -92,7 +92,7 @@ The whole file should now look something like this:
 ```
 
 #### Ready to roll!
-At this point, everything should be set up and ready to go. All that's left is to write our UX and JS (with the JS code inside the `js` folder), and load the compiled JS into our UX. For example, if our original JS code was `js/MainView.js`, we'd pull in the compiled one like so:
+At this point, everything should be set up and ready to go. All that's left is to write our UX and JS (with the JS code inside the `js` folder), and load the compiled JS into our UX. For example, if our original JS code is `js/MainView.js`, we'll pull the compiled one into our UX like so:
 
 ```ux
 <JavaScript File="./.js-compiled/MainView.js" />
