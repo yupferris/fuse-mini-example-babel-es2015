@@ -2,7 +2,7 @@
 A mini example to show how Fuse plays nicely with JS transpilers like [Babel](https://babeljs.io/). It's a trivial example that maps a FuseJS `Observable` using an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), nothing more :)
 
 ## Prerequisites
-Beyond [Fuse](https://www.fusetools.com/downloads), ywou'll need [Node.js](https://nodejs.org/en/) (for [npm](https://www.npmjs.com/)). Head over to https://nodejs.org/en/download/ and follow the instructions there to install the latest LTS (at the time of writing, v4.4.4). This will install node and npm.
+Beyond [Fuse](https://www.fusetools.com/downloads), you'll need [Node.js](https://nodejs.org/en/) (for [npm](https://www.npmjs.com/)). Head over to https://nodejs.org/en/download/ and follow the instructions there to install the latest LTS (at the time of writing, v4.4.4). This will install node and npm.
 
 Once npm is installed, we'll use it to install our project's node dependencies (in this case, only Babel) from the project directory like so:
 
