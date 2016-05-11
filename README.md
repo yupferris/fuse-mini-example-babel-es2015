@@ -67,7 +67,7 @@ When running Babel, we'll want it to watch our `js` directory and compile our so
 babel js -d .js-compiled -w
 ```
 
-To make things a bit more convenient, we'll set up a command in our npm scripts so we can instead just use `npm run build`, which is a bit easier to remember. To do this, we'll add the following to our `package.json` file:
+To make things a bit more convenient, we'll set up a command in our npm scripts so we can instead just use `npm run build`, which is a bit easier to remember (albeit a bit silly/hacky, but it'll do for this mini example). To do this, we'll add the following to our `package.json` file:
 
 ```js
   "scripts": {
