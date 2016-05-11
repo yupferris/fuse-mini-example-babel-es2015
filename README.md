@@ -1,5 +1,5 @@
 # fuse-mini-example-babel-es2015
-A mini example to show how Fuse plays nicely with JS transpilers like [Babel](https://babeljs.io/). It's a trivial example that maps a FuseJS `Observable` using an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), nothing more :)
+A mini example to show how Fuse plays nicely with JS transpilers like [Babel](https://babeljs.io/). It's a trivial example that maps a FuseJS `Observable` using an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), nothing more. If you're looking for a more complete/better example to use as a proper starting point with these technologies, you should check out [this example](https://github.com/sebbert/fuse-gulp-rollup-babel) instead :)
 
 ## Prerequisites
 Beyond [Fuse](https://www.fusetools.com/downloads), you'll need [Node.js](https://nodejs.org/en/) (for [npm](https://www.npmjs.com/)). Head over to https://nodejs.org/en/download/ and follow the instructions there to install the latest LTS (at the time of writing, v4.4.4). This will install node and npm.
