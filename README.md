@@ -101,7 +101,7 @@ At this point, everything should be set up and ready to go. All that's left is t
 And that's it, go nuts :)
 
 ## Versions
-This example was produced with Fuse (beta) v0.12.3 (build 6348), babel 6.8.0, node v4.4.4, and npm 2.15.1. It was tested on Mac OS X 10.10.5.
+This example was produced with Fuse (beta) v0.12.3 (build 6348), babel 6.8.0, node v4.4.4, and npm 2.15.1. It was tested on Mac OS X 10.10.5. It was later updated to be compatible with Fuse 0.20 and onwards.
 
 ## License
 This code is licensed under the BSD2 license (see LICENSE).
