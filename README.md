@@ -16,7 +16,7 @@ And we're all set!
 Before we `fuse preview`, we need to ensure Babel is watching our `js` directory and compiling our code. To do this, we'll fire up a second terminal in our project directory and run:
 
 ```sh
-npm run build
+npm run watch
 ```
 
 At this point, we can `fuse preview` and everything should be playing nicely :)
@@ -67,11 +67,11 @@ When running Babel, we'll want it to watch our `js` directory and compile our so
 babel js -d .js-compiled -w
 ```
 
-To make things a bit more convenient, we'll set up a command in our npm scripts so we can instead just use `npm run build`, which is a bit easier to remember (albeit a bit silly/hacky, but it'll do for this mini example). To do this, we'll add the following to our `package.json` file:
+To make things a bit more convenient, we'll set up a command in our npm scripts so we can instead just use `npm run watch`, which is a bit easier to remember. To do this, we'll add the following to our `package.json` file:
 
 ```js
   "scripts": {
-    "build": "babel js -d .js-compiled -w"
+    "watch": "babel js -d .js-compiled -w"
   },
 ```
 
@@ -82,7 +82,7 @@ The whole file should now look something like this:
   "name": "babel",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel js -d .js-compiled -w"
+    "watch": "babel js -d .js-compiled -w"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
